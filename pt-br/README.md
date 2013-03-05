@@ -1,4 +1,4 @@
-WebWorks-Boilerplate
+WebWorks-Boilerplate [PT-BR]
 ====================
 
 Template para criar aplicações para BlackBerry WebWorks
