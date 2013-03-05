@@ -1,0 +1,9 @@
+## Arquivos Genéricos 
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+## Arquivos C9
+*.c9save
