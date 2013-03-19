@@ -14,9 +14,9 @@
 	<rim:splash src="img/splash-768px-1280px.png"/>
         
     <!-- As permissões que sua App vai requisitar. 
-            Retire o comentário da tag rim:permit caso for utilizar a permissão comentada, um exemplo de como 
-            fazer isso é com o use_camera (caso não for utilizar o use_camera comente a tag) 
-            Caso queria mais informaçoes sobre leia este link ->
+            Retire o comentário da linha na tag rim:permit caso for utilizar a permissão comentada, um exemplo de como 
+            fazer isso é como o use_camera (caso não for utilizar o use_camera comente a tag) 
+            Caso queria mais informaçoes sobre, leia este link ->
             (Conteúdo em inglês) http://developer.blackberry.com/html5/documentation/rim_permit_element.html -->
 	<rim:permissions>
         <rim:permit>use_camera</rim:permit>
