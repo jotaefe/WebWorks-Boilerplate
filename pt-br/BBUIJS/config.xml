@@ -1,0 +1,48 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:rim="http://www.blackberry.com/ns/widgets" version="2.0.0.0" id="id-da-sua-app">
+ 
+    <author href="http://www.site-do-autor.com/" rim:copyright="Copyright 2012-2013 Autor-da-App">Autor-da-App</author>
+	<name>Nome da sua App</name>
+	<description>Descrição da sua App</description>
+	
+    <!-- Aqui ficam as imagens de splash e a imagem do icone, você pode trocar e editar elas no diretório img. 
+            Mas lembre-se de respeitar os tamanhos (os tamanhos de cada imagem estão no nome das imagens, 
+            ex.:114-114 é o tamanho da imagem de icone.). -->
+	<icon src="img/icon-114px-114px.png"/>
+	<rim:splash src="img/splash-1280px-768px.png"/>
+	<rim:splash src="img/splash-768px-1280px.png"/>
+        
+    <!-- As permissões que sua App vai requisitar. 
+            Retire o comentário da tag rim:permit caso for utilizar a permissão comentada, um exemplo de como 
+            fazer isso é com o use_camera (caso não for utilizar o use_camera comente a tag) 
+            Caso queria mais informaçoes sobre leia este link ->
+            (Conteúdo em inglês) http://developer.blackberry.com/html5/documentation/rim_permit_element.html -->
+	<rim:permissions>
+        <rim:permit>use_camera</rim:permit>
+        <!-- <rim:permit>read_device_identifying_information</rim:permit> -->
+        <!-- <rim:permit>access_location_services</rim:permit> -->
+        <!-- <rim:permit>record_audio</rim:permit> -->
+        <!-- <rim:permit>access_shared</rim:permit> -->
+        <!-- <rim:permit system="true">_sys_use_consumer_push</rim:permit> -->
+        <!-- <rim:permit>run_when_backgrounded</rim:permit> -->
+        <!-- <rim:permit>bbm_connect</rim:permit> -->
+        <!-- <rim:permit>access_pimdomain_messages</rim:permit> -->
+        <!-- <rim:permit>access_pimdomain_contacts</rim:permit> -->
+        <!-- <rim:permit>access_pimdomain_calendars</rim:permit> -->
+        <!-- <rim:permit>access_pimdomain_notebooks</rim:permit> -->
+        <!-- <rim:permit>post_notifications</rim:permit> -->
+        <!-- <rim:permit>access_sms_mms</rim:permit>-->    
+	</rim:permissions>
+    
+	
+	<content src="index.html" rim:allowInvokeParams="true"/>
+	
+    <feature id="blackberry.ui.dialog"/>
+	<feature id="blackberry.app.orientation">
+		<param name="mode" value="portrait" />
+	</feature>
+	<feature id="blackberry.app">
+		<param name="backgroundColor" value="0x48AAE1" />
+	</feature>
+</widget>
