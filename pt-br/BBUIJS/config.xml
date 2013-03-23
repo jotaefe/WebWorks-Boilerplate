@@ -40,35 +40,31 @@
 	
     
     
-    <feature id="blackberry.bbm.platform" />
-    <feature id="blackberry.identity" required="true" version="1.0.0.0"/>
-	<feature id="blackberry.identity.phone" required="true" version="1.0.0.0"/>
-
-    <feature id="blackberry.invoke" required="true" version="1.0.0.0"/>
-    <feature id="blackberry.invoke.card" required="true" version="1.0.0.0"/>
-    <feature id="blackberry.invoked" required="true" version="1.0.0.0"/>
-    <feature id="blackberry.io.filetransfer" required="true" version="1.0.0.0"/>
-    <feature id="blackberry.io" required="true" version="1.0.0.0"/>
-    <feature id="blackberry.payment" required="true" version="1.0.0.0"/>
-    <feature id="blackberry.pim.calendar" required="true" version="1.0.0.0"/>
-    <feature id="blackberry.pim.contacts" required="true" version="1.0.0.0"/>
-    <feature id="blackberry.push" required="true" version="1.0.0.0"/>
-    <feature id="blackberry.sensors" required="true" version="1.0.0.0"/>
+    <!-- <feature id="blackberry.bbm.platform" /> -->
+    <!-- <feature id="blackberry.identity" required="true" version="1.0.0.0"/> -->
+	<!-- <feature id="blackberry.identity.phone" required="true" version="1.0.0.0"/> -->
+    <!--<feature id="blackberry.invoke" required="true" version="1.0.0.0"/> -->
+    <!--<feature id="blackberry.invoke.card" required="true" version="1.0.0.0"/> -->
+    <!--<feature id="blackberry.invoked" required="true" version="1.0.0.0"/> -->
+    <!--<feature id="blackberry.io.filetransfer" required="true" version="1.0.0.0"/> -->
+    <!--<feature id="blackberry.io" required="true" version="1.0.0.0"/> -->
+    <!--<feature id="blackberry.payment" required="true" version="1.0.0.0"/> -->
+    <!--<feature id="blackberry.pim.calendar" required="true" version="1.0.0.0"/> -->
+    <!--<feature id="blackberry.pim.contacts" required="true" version="1.0.0.0"/> -->
+    <!--<feature id="blackberry.push" required="true" version="1.0.0.0"/> -->
+    <!--<feature id="blackberry.sensors" required="true" version="1.0.0.0"/> -->
     <feature id="blackberry.app" required="true" version="1.0.0.0">
     		<param name="backgroundColor" value="0x48AAE1" />
     </feature>
-    <feature id="blackberry.connection" required="true" version="1.0.0.0"/>
-    
-
-    
-    
-    
-    
-    <feature id="blackberry.ui.dialog"/>
-	<feature id="blackberry.app.orientation">
+    <feature id="blackberry.app.orientation">
 		<param name="mode" value="portrait" />
 	</feature>
-	<feature id="blackberry.app">
-		<param name="backgroundColor" value="0x48AAE1" />
-	</feature>
+    <!--<feature id="blackberry.connection" required="true" version="1.0.0.0"/>  -->
+    <!--<feature id="blackberry.system" />  -->
+    <!--<feature id="blackberry.ui.contextmenu" /> -->
+    <!--<feature id="blackberry.ui.cover" /> -->
+    <feature id="blackberry.ui.dialog" />
+    <!--<feature id="blackberry.ui.toast" /> -->
+    <!--<feature id="blackberry.ui.cover" /> -->
+
 </widget>
